@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test - Warung Kopi Santai</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .test-section {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .success { color: #28a745; }
+        .error { color: #dc3545; }
+        .info { color: #17a2b8; }
+        .btn {
+            background: #4B2E2B;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        .btn:hover {
+            background: #6B8E23;
+        }
+    </style>
+</head>
+<body>
+    <h1>🧪 Test Website Warung Kopi Santai</h1>
+    
+    <div class="test-section">
+        <h2>✅ Status File</h2>
+        <ul>
+            <li class="success">index.html - ✅ File HTML utama</li>
+            <li class="success">style.css - ✅ Stylesheet CSS</li>
+            <li class="success">script.js - ✅ JavaScript interaktif</li>
+            <li class="success">README.md - ✅ Dokumentasi lengkap</li>
+            <li class="success">images/ - ✅ Folder gambar</li>
+        </ul>
+    </div>
+    
+    <div class="test-section">
+        <h2>🎯 Fitur yang Tersedia</h2>
+        <ul>
+            <li>✅ Website responsif untuk semua device</li>
+            <li>✅ Tema hangat dengan warna coklat tua, cream, dan hijau daun</li>
+            <li>✅ Font Poppins dan Merriweather</li>
+            <li>✅ Navigasi sticky dengan mobile menu</li>
+            <li>✅ 7 section lengkap (Beranda, Menu, Fasilitas, Sejarah, Testimoni, Galeri, Kontak)</li>
+            <li>✅ 20 menu makanan dan minuman</li>
+            <li>✅ 9 fasilitas dengan ikon</li>
+            <li>✅ Form reservasi lengkap</li>
+            <li>✅ Animasi scroll dan hover effects</li>
+            <li>✅ Sistem notifikasi</li>
+        </ul>
+    </div>
+    
+    <div class="test-section">
+        <h2>🚀 Cara Menjalankan</h2>
+        <p><strong>Pilihan 1:</strong> Buka file <code>index.html</code> langsung di browser</p>
+        <p><strong>Pilihan 2:</strong> Jalankan local server:</p>
+        <button class="btn" onclick="copyCommand('python -m http.server 8000')">Python Server</button>
+        <button class="btn" onclick="copyCommand('npx serve .')">Node.js Server</button>
+        <button class="btn" onclick="copyCommand('php -S localhost:8000')">PHP Server</button>
+    </div>
+    
+    <div class="test-section">
+        <h2>🔗 Link Website</h2>
+        <a href="index.html" class="btn" style="text-decoration: none; display: inline-block;">Buka Website Utama</a>
+    </div>
+    
+    <div class="test-section">
+        <h2>📱 Test Responsivitas</h2>
+        <p>Untuk test responsivitas:</p>
+        <ol>
+            <li>Buka website di browser</li>
+            <li>Tekan F12 untuk Developer Tools</li>
+            <li>Klik icon mobile/tablet untuk test berbagai ukuran layar</li>
+            <li>Test menu mobile dengan hamburger button</li>
+        </ol>
+    </div>
+    
+    <div class="test-section">
+        <h2>🎨 Customization</h2>
+        <p>Untuk mengganti gambar placeholder:</p>
+        <ol>
+            <li>Tambahkan foto asli ke folder <code>images/</code></li>
+            <li>Update HTML untuk menggunakan gambar asli</li>
+            <li>Lihat <code>images/README.md</code> untuk panduan lengkap</li>
+        </ol>
+    </div>
+    
+    <div class="test-section">
+        <h2>🐛 Troubleshooting</h2>
+        <p>Jika ada masalah:</p>
+        <ul>
+            <li>Pastikan semua file ada dalam satu folder</li>
+            <li>Check console browser untuk error JavaScript</li>
+            <li>Pastikan koneksi internet untuk Google Fonts dan Font Awesome</li>
+            <li>Test di browser yang berbeda</li>
+        </ul>
+    </div>
+    
+    <div class="test-section">
+        <h2>📞 Support</h2>
+        <p>Untuk bantuan lebih lanjut, lihat file <code>README.md</code> atau hubungi:</p>
+        <ul>
+            <li>WhatsApp: 0877623623663</li>
+            <li>Instagram: @kopisantai</li>
+        </ul>
+    </div>
+    
+    <script>
+        function copyCommand(command) {
+            navigator.clipboard.writeText(command).then(() => {
+                alert('Command copied: ' + command);
+            }).catch(() => {
+                prompt('Copy command ini:', command);
+            });
+        }
+        
+        // Test JavaScript functionality
+        console.log('🧪 Test page loaded successfully!');
+        console.log('🍵 Warung Kopi Santai - Ready for testing!');
+    </script>
+</body>
+</html>
